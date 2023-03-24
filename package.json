@@ -1,0 +1,21 @@
+{
+  "name": "uniswap-price-monitor-real-time",
+  "version": "1.0.0",
+  "repository": "https://github.com/marwenkouidhi/uniswap-price-monitor-real-time.git",
+  "author": "marwenkouidhi <marwen.kouidhi@esprit.tn>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc src/index.ts"
+  },
+  "dependencies": {
+    "ethers": "^6.2.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^18.15.7",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.2"
+  }
+}
